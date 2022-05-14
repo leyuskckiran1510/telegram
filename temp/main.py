@@ -21,10 +21,8 @@ from scrape import Run
 import json
 from uuid import uuid4
 
-  
-#5337004329:AAGi7x2DwRQrsWhD-EaYEzrHX1Lp9ReQ-TE   main token
-#5343913274:AAEZLxQUdfVWbtIr-vfl40znbpps3ubqzkk   testing token
-updater = Updater("5343913274:AAEZLxQUdfVWbtIr-vfl40znbpps3ubqzkk",
+ 
+updater = Updater,Your_Api_KEY
                   use_context=True)
   
 b= Run()
